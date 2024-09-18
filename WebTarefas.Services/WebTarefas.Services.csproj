@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WebTarefas.Domain\WebTarefas.Domain.csproj" />
+    <ProjectReference Include="..\WebTarefas.Infra\WebTarefas.Infra.csproj" />
+  </ItemGroup>
+
+</Project>

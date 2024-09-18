@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+  webtarefas:
+    image: webtarefas
+    build:
+      context: .
+    ports:
+      - "5000:80"

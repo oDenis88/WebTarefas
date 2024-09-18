@@ -1,0 +1,6 @@
+@WebTarefas_HostAddress = http://localhost:5195
+
+GET {{WebTarefas_HostAddress}}/Tarefa/
+Accept: application/json
+
+###
